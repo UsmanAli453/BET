@@ -1,0 +1,12 @@
+.dark-theme{
+    background-color: #1a1a1a;
+    h2, p , h3 , li , h1{
+        color: white;
+    }
+    
+
+}
+
+.light-theme{
+    background-color: white;
+}
