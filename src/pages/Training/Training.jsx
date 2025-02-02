@@ -4,7 +4,7 @@ import { TrainingInput ,Courses, Reason, ITExpert } from '../../components/compo
 export default function Training() {
   return (
     <>
-        <section className="py-10">
+        <section className="py-10 overflow-hidden">
               <TrainingInput/>
               <Courses/>
               <Reason/>

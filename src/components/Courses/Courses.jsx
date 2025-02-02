@@ -45,19 +45,19 @@ export default function Courses() {
     ]
     return (
         <>
-            <div className='px-[160px] space-y-12'>
+            <div className='px-5 md:px-[160px] space-y-12'>
                 <div className=' flex text-justify justify-center'>
-                    <p className=' mt-6 text-CustomBlack text-sm w-[65rem] p-8 border-l-4 border-CustomBlue bg-gray-100'>Welcome to Valuable Students! Are you confused to decide where to start your career or enhance your IT skills and professionalism? Or you just need some
+                    <p className=' mt-6 text-CustomBlack text-xs md:text-sm md:w-[65rem] p-4 md:p-8 border-l-4 border-CustomBlue bg-gray-100'>Welcome to Valuable Students! Are you confused to decide where to start your career or enhance your IT skills and professionalism? Or you just need some
                         guaranteed counselling with assurance that your selected computer course or field will boost your IT career? If Yes! Then you are at the right place.</p>
                 </div >
-                <div className='grid grid-cols-3 gap-5'>
+                <div className='md:grid grid-cols-3 gap-5'>
                     {
                         Data.map(({ imgText, text, image, heading, index }) => {
                             return(
 
                             
-                            <div className='space-y-2 shadow-lg p-4 ' key={index}>
-                                <div className="relative w-72 h-44">
+                            <div className='space-y-4 shadow-lg p-4 mb-5 md:mb-0' key={index}>
+                                <div className="relative md:w-72 md:h-44 w-80 h-48 ">
                                     <img
                                         src={image}
                                         alt="UX UI Designing"
@@ -75,7 +75,7 @@ export default function Courses() {
                                 </div>
                                 <p className='text-CustomBlack text-sm w-72 leading-loose'>{text}</p>
 
-                                <button className='bg-CustomYellow px-5 py-2 rounded-lg text-CustomBlack font-semibold border border-CustomBlack' onClick={()=>{navigate("/traininginfo")}}>View Details</button>
+                                <button className='bg-CustomYellow px-5 py-2  rounded-lg text-CustomBlack font-semibold border border-CustomBlack' onClick={()=>{navigate("/traininginfo")}}>View Details</button>
                             </div>)
                         })
                     }

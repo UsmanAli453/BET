@@ -21,5 +21,12 @@ export { default as TrainingInput} from "./TrainingInput/TrainingInput"
 export { default as Courses} from "./Courses/Courses"
 export { default as Reason} from "./Reason/Reason"
 export { default as ITExpert} from "./IT-Expert/IT-Expert"
+export { default as Details} from "./Details/Details"
+export { default as Description} from "./Description/Description"
+export { default as ProfessionalCourse} from "./ProfessionalCourse/ProfessionalCourse"
+export { default as Demanding} from "./Demanding/Demanding"
+export { default as ForWho} from "./ForWho/ForWho"
+export { default as Requirements} from "./Requirement/Requirement"
+export { default as Enroll} from "./Enroll/Enroll"
 
 

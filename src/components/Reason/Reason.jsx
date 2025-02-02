@@ -8,9 +8,9 @@ export default function Reason() {
     }, []);
     return (
         <>
-            <div className='py-16 max-w-8xl sm:px-[10rem] space-y-6 '>
+            <div className='py-16 md:px-[160px] px-5 space-y-6 '>
                 <h1
-                    className={` text-gray-800 text-3xl font-bold w-[60rem] `}
+                    className={` text-gray-800 text-2xl md:text-3xl font-bold md:w-[60rem] `}
                     data-aos="fade-up" // AOS animation type
                 >
                     Reason that make our <span className='text-CustomBlue'>Computer & IT Courses</span> highly recommended
@@ -19,7 +19,7 @@ export default function Reason() {
                 <div className='bg-CustomYellow w-40 h-1'></div>
 
                 <p
-                    className={`text-CustomBlack text-lg`}
+                    className={`text-CustomBlack md:text-lg`}
                     data-aos="fade-up" // AOS animation type
                     data-aos-delay="200" // Delay the animation by 200ms
                 >
@@ -27,7 +27,7 @@ export default function Reason() {
                     Computer Courses of your interest and be a part of our demo/trail classes and meet our professional trainers and here you go!
                 </p>
                 <p
-                    className={`text-CustomBlack text-lg`}
+                    className={`text-CustomBlack md:text-lg`}
                     data-aos="fade-up" // AOS animation type
                     data-aos-delay="200" // Delay the animation by 200ms
                 >

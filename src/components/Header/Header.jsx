@@ -60,7 +60,7 @@ const Header = () => {
         {/* Navbar */}
         <nav
           className={`absolute top-full left-0 w-full ${theme === "dark" ? "bg-CustomDark" : "bg-white"}  overflow-hidden transition-all duration-300 ease-out md:static md:w-auto md:max-h-full md:transform-none md:flex md:items-center ${
-            isOpen ? "max-h-96" : "max-h-0"
+            isOpen ? "max-h-[50rem]" : "max-h-0"
           }`}
         >
           <ul className={` flex flex-col text-center gap-4 md:flex-row md:gap-8 md:p-0`}>
